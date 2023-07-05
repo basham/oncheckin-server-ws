@@ -1,0 +1,16 @@
+{
+  "name": "oncheckin-server-ws",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "HOST=0.0.0.0 PORT=3000 npx y-websocket"
+  },
+  "author": "Chris Basham <chris@bash.am>",
+  "license": "MIT",
+  "dependencies": {
+    "y-websocket": "1.5.0"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "0.2.16"
+  }
+}
